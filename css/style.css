@@ -1,0 +1,100 @@
+* {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;;
+}
+a:link {
+    color: gray;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: rebeccapurple;
+}
+
+a:active {
+    color: teal;
+}
+h1 {
+
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.menu {
+
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    position:relative;
+    font-size: 18px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+div.footer {
+
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    clear:right;width:100%;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 20px;
+    float: right;
+    color: #ff1310;
+    top: 140px;
+}
+div.text {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: justify;
+    text-indent: 10px;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 15px;
+}
+img {
+    padding-top: 40px;
+    padding-right: 25px;
+    padding-bottom: 40px;
+    padding-left: 25px;
+}
+div.left {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    width: 200px;
+    text-align: justify;
+    padding-right: 20px;
+    border: solid 1px black;
+    float: left;
+    text-indent: 10px;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 15px;
+}
+div.rigt {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    width: 200px;
+    background: #fc0;
+    padding: 5px;
+    border: solid 1px black;
+    float: left;
+    position: relative;
+    top: 0px;
+    left: 10px;
+    text-align: justify;
+    text-indent: 10px;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 15px;
+}
