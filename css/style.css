@@ -47,7 +47,7 @@ div.footer {
     font-weight: 500;
     line-height: 20px;
     float: right;
-    color: #ff1310;
+    color: green;
     top: 140px;
 }
 div.text {
@@ -61,40 +61,57 @@ div.text {
     line-height: 15px;
 }
 img {
+    display: inline-block;
     padding-top: 40px;
     padding-right: 25px;
     padding-bottom: 40px;
     padding-left: 25px;
+    margin : 10px;
+    width: 70%;
+    border: 1px solid #cccccc;
 }
-div.left {
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    width: 200px;
-    text-align: justify;
-    padding-right: 20px;
-    border: solid 1px black;
-    float: left;
-    text-indent: 10px;
-    font-size: 14px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 500;
-    line-height: 15px;
+
+div.center {
+    text-align: center;
 }
-div.rigt {
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    width: 200px;
-    background: #fc0;
-    padding: 5px;
-    border: solid 1px black;
+
+table.price {
+    border: 1px solid darkgreen;
+    width: 640px;
+    text-align: center;
+}
+td {
+    border: 1px solid darkgreen;
+    text-align: center;
+}
+tr {
+    border: 1px solid darkgreen;
+    text-align: center;
+    height: 20%"
+}
+
+.test {
+    border: solid 5px red;
+    margin-top: 120px;
+}
+.test0 {
+    border: solid 5px red;
+}
+#left-column {
     float: left;
-    position: relative;
-    top: 0px;
-    left: 10px;
-    text-align: justify;
-    text-indent: 10px;
-    font-size: 14px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 500;
-    line-height: 15px;
+    width: 150px;
+    border: 0px solid darkgreen;
+}
+#right-column {
+    float: right;
+    width: 150px;
+    border: 0px solid darkgreen;
+}
+#center-column {
+    margin: 0 150px;
+    border: 0px solid darkgreen;
+}
+#footer {
+    border: 1px solid darkgreen;
+    clear: both;
 }
